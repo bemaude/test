@@ -23,3 +23,4 @@ jobs:
         gcloud auth list
         gcloud config set project gcp-labs-ghiwqlie
         gcloud secrets list
+        gcloud secrets versions access 1 --secret=flag_iam_lab_7
